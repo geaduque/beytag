@@ -1,0 +1,25 @@
+:root {
+  --fonte: 'Gabarito', sans-serif;
+  --preto: #191717;
+  --cinza: #7D7C7C;
+  --bege:  #CCC8AA;
+  --cinza-claro: #F1EFEF;
+  --branco: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  font-family: var(--fonte);
+  background-color: var(--cinza-claro); 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
