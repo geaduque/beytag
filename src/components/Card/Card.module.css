@@ -30,3 +30,23 @@
     color: var(--branco);
     text-align: left;
 }
+
+@media screen and (min-width: 300px) and (max-width: 883px) {
+    .container{
+        margin-left: 70px;
+        width: 170px;
+        height: 310px;
+        font-size: 15px;
+    }
+
+    .capa {
+        width: 170px;
+        height: 180px
+    }
+
+    .favoritar, .desfavoritar {
+        width: 20px;
+    }
+
+
+}
